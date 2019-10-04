@@ -2,7 +2,6 @@ body {
     background: #E2E2E1;
     font-family: 'Open Sans', sans-serif;
 }
-
 .heading {
     background: #FFFFFF;
 }
@@ -19,7 +18,7 @@ body {
     border: .13em solid #B4B4B4 !important;
     /* padding: 1em; */
     height: 28px;
-    font-size: 0.9rem !important;
+    font-size: 0.789rem !important;
 }
 select.form-control{
     height: auto;
