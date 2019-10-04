@@ -73,9 +73,7 @@ input[type="file"] {
     padding-left: .4em;
 }
 .tooltip-inner {
-    width: 300px !important;
-    min-width: 300px;
-    max-width: 300px;
+
 }
 .document-icon{
     width: 50px;

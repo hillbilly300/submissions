@@ -354,10 +354,14 @@ session_start();
                             </div>
                         </div>
                         <div class="form-group">
+                            <p class="small text-capitalize mt-1">Phone number including country code</p>
                             <label for="phone" class="text-uppercase">Phone</label>
                             <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
                         </div>
                         <div class="form-group">
+                            <p class="small text-capitalize mt-1">Your email address is where we will send communications ,
+                            notification, and transaction or trade receipts.
+                            </p>
                             <label for="email" class="text-uppercase">Email</label>
                             <input type="email" class="form-control" id="email" name="email" placeholder="Email">
                         </div>
@@ -387,6 +391,11 @@ session_start();
                     <div class="card-body form-body">
 
                         <div class="form-line">
+                            <p class="small text-capitalize mb-2">TELL US A LITTLE ABOUT YOU AND YOUR ACCOUNT REQUIREMENTS</p>
+                            <p class="small my-2">
+                                This information can be changed at a later date. Select the one account category
+                                that you feel best fits your needs.
+                            </p>
                             <h6 class="text-uppercase">Type of account required ? </h6>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
@@ -665,8 +674,9 @@ session_start();
 
 
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1" class="text-uppercase">Enter relevant information
-                                according to your account requirements requirements(if any)</label>
+                            <label for="exampleFormControlTextarea1" class="text-uppercase">ENTER ANY INFORMATION THAT
+                                YOU BELIEVE RELEVANT REGARDING YOUR ACCOUNT REQUIREMENTS
+                            </label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" name="relevant-info"
                                       rows="3"></textarea>
                         </div>
@@ -677,7 +687,17 @@ session_start();
                 <div class="card shadow">
                     <h6 class="p-2 px-3 text-uppercase heading shadow">Verification Documents</h6>
                     <div class="card-body form-body">
-                        <div class="media mb-3">
+                        <p class="small">
+                            You must provide the following in order for Crypto Swap to comply with account verification
+                            mandates enacted by the Canadian Financial Services Authority FINTRAC . Our registration
+                            number with this Authority is M19260937. These compliance program requirements are applicable
+                            to all individuals and entities that are subject to the Proceeds of Crime (Money Laundering)
+                            and Terrorist Financing Act (PCMLTFA) and associated Regulations, and can be reviewed at 
+                            httpslAvww.fintrac-canafe.gc.caiguidance-directives/compliance-conformite/Guide4/4-eng.
+
+                        </p>
+                        <p class="small text-uppercase mt-2">Identification document root</p>
+                        <div class="media mb-2">
                             <img src="images/baseline-account_box-24px.png" class="mr-3 document-icon img-fluid"
                                  alt="...">
                             <div class="media-body">
@@ -702,8 +722,10 @@ session_start();
                                 </div>
                             </div>
                         </div>
-
-                        <div class="media mb-3">
+                        <p class="small text-uppercase">
+                            IDENTIFICATION DOCUMENT REVERSE (BACK SIDE OF DRIVERS LICENCE OR OTHER TYPE. PAGE 3 IF THE IDENTIFICATION IS A PASSPORT) "
+                        </p>
+                        <div class="media mb-2">
                             <img src="images/baseline-account_box-24px.png" class="mr-3 document-icon img-fluid"
                                  alt="...">
                             <div class="media-body">
@@ -728,10 +750,9 @@ session_start();
                                 </div>
                             </div>
                         </div>
-
-                        <div class="media mb-3">
+                        <div class="media mb-2">
                             <img src="images/baseline-home-24px.png" class="mr-3 document-icon img-fluid" alt="...">
-                            <div class="media-body my-3">
+                            <div class="media-body">
                                 <h6 class="m-0 text-uppercase">Address verification
 
                                     <span data-toggle="tooltip" data-placement="top"
@@ -780,7 +801,13 @@ session_start();
                             <label for="full-name" class="text-uppercase">Type your Full name</label>
                             <input type="text" class="form-control" id="full-name" name="full-name">
                         </div>
-                        <div class="form-group my-4">
+                        <p class="small mt-2">
+                            By typing your name here and submitting this information you attest to the correctness
+                            of the information herein. You also agree that you are not representing a third party or
+                            a Politically Exposed Foreign Person. Senior Foreign Political Person or Head of and
+                            International Corporation, unless stipulated herein .
+                        </p>
+                        <div class="form-group mt-2 ">
                             <input type="submit" class="btn btn-dark px-4" name="submit">
                         </div>
                     </div>
