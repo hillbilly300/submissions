@@ -82,3 +82,7 @@ input[type="file"] {
     min-width: 50px;
     max-width: 50px;
 }
+p.small{
+    line-height: 1.2;
+    margin-bottom: .32em;
+}
