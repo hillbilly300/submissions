@@ -18,7 +18,7 @@ body {
     box-shadow: none !important;
     border: .13em solid #B4B4B4 !important;
     /* padding: 0; */
-    font-size: .7rem !important;
+    font-size: .5rem !important;
 }
 
 .shadow {
@@ -65,7 +65,6 @@ input[type="file"] {
     color: #330000 !important;
     font-size: 1rem;
     padding-left: .4em;
-    text-decoration: underline;
 }
 .tooltip-inner {
     width: 300px !important;
