@@ -21,6 +21,10 @@ body {
     height: 28px;
     font-size: 0.9rem !important;
 }
+select.form-control{
+    height: auto;
+    padding: .18765em !important;
+}
 .form-group{
     margin-bottom: .2rem !important;
 }
