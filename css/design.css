@@ -1,0 +1,79 @@
+body {
+    background: #E2E2E1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+    background: #FFFFFF;
+}
+
+.form-body{
+    background: #F5F5F5 !important;
+}
+.form-control {
+    background: #F5F5F5 !important;
+}
+
+.form-control {
+    box-shadow: none !important;
+    border: .13em solid #B4B4B4 !important;
+    /* padding: 0; */
+    font-size: .7rem !important;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.text-uppercase {
+    font-weight: 600 !important;
+}
+.heading{
+    color: #828283 !important;
+    font-size: 1rem !important;
+}
+h6,
+.h6, label {
+    font-size: 0.75rem !important;
+}
+.upload{
+    position: relative;
+    cursor: pointer !important;
+}
+.upload-input{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    cursor: pointer !important;
+    transform: rotate(180deg);
+}
+.upload .font-weight-bold{
+    font-weight: 900 !important;
+}
+input[type="file"] {
+    cursor: pointer !important;
+}
+.card{
+    height: 100% !important;
+}
+.tooltip-pointer{
+    cursor: pointer;
+    color: #330000 !important;
+    font-size: 1rem;
+    padding-left: .4em;
+    text-decoration: underline;
+}
+.tooltip-inner {
+    width: 300px !important;
+    min-width: 300px;
+    max-width: 300px;
+}
+.document-icon{
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+}
