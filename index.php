@@ -56,7 +56,12 @@ session_start();
                     <h6 class="p-2 px-3 text-uppercase heading shadow">The Basics</h6>
                     <div class="card-body form-body">
                         <div class="form-line">
-                            <h6 class="text-uppercase">Legal name</h6>
+                            <h6 class="text-uppercase">Legal name
+                                <span data-toggle="tooltip" data-placement="top"
+                                      title="Please enter your name as it appears on your identification."
+                                      class="tooltip-pointer"><b>*</b>
+                                </span>
+                            </h6>
                             <div class="form-row">
                                 <div class="form-group col-md-5">
                                     <input type="text" class="form-control" id="first" name="first">
