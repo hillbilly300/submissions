@@ -20,7 +20,9 @@ body {
     /* padding: 0; */
     font-size: .5rem !important;
 }
-
+.form-group{
+    margin-bottom: .2rem !important;
+}
 .shadow {
     -webkit-box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.15) !important;
     box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.15) !important;
